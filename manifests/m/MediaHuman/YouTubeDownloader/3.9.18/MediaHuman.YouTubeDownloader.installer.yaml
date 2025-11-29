@@ -1,0 +1,20 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: MediaHuman.YouTubeDownloader
+PackageVersion: 3.9.18
+InstallerType: inno
+Scope: machine
+UpgradeBehavior: install
+Protocols:
+- ytd
+ProductCode: MediaHuman YouTube Downloader_is1
+Installers:
+- Architecture: x86
+  InstallerUrl: https://www.mediahuman.com/files/YouTubeDownloader.exe
+  InstallerSha256: 258309BA7F043B61431C4F5B7976FFB1E67D02CBC2D4D225F364206A534F2C24
+- Architecture: x64
+  InstallerUrl: https://www.mediahuman.com/files/YouTubeDownloader-x64.exe
+  InstallerSha256: 0119E49EE3BC221CDBC04599F7AD73D269CD9F5660B6E7198E609A2C9B0782F0
+ManifestType: installer
+ManifestVersion: 1.10.0
